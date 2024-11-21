@@ -35,7 +35,7 @@ header nav a:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-bottom: 50px; /* Espace pour le footer */
+    padding-bottom: 50px; 
 }
 
 /* Section Accueil */
@@ -64,7 +64,7 @@ header nav a:hover {
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Ajout d'une ombre */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
 }
 
 .profile-photo {
@@ -125,7 +125,7 @@ a:-webkit-any-link {
 }
 
 .badge-container img {
-    width: 300px; /* Taille du badge agrandie */
+    width: 300px; 
     height: auto;
     border-radius: 5px;
 }
@@ -181,13 +181,13 @@ a:-webkit-any-link {
 
 .projects-container {
     display: flex;
-    justify-content: space-between; /* Espacement entre les projets */
-    width: 80%; /* Largeur de la zone des projets */
-    margin: 20px auto; /* Centre le conteneur */
+    justify-content: space-between; 
+    width: 80%; 
+    margin: 20px auto; 
 }
 
 .project {
-    width: 45%; /* Largeur de chaque projet */
+    width: 45%; 
     background-color: #222;
     border-radius: 8px;
     padding: 10px;
@@ -195,16 +195,16 @@ a:-webkit-any-link {
 }
 
 .project img {
-    width: 100%; /* Rendre la vidéo responsive */
-    height: auto; /* Conserver le ratio d'aspect */
-    border-radius: 5px; /* Coins arrondis pour la vidéo */
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
 }
 
 .project p {
-    margin-top: 10px; /* Espace au-dessus de la description */
-    color: #bbb; /* Couleur de la description pour qu'elle se distingue */
-    font-size: 16px; /* Taille de la police de la description */
-    text-align: center; /* Centre la description */
+    margin-top: 10px; 
+    color: #bbb; 
+    font-size: 16px; 
+    text-align: center; 
 }
 
 /* Footer centré en bas */
@@ -243,16 +243,16 @@ nav a:hover::before {
 }
 
 .text-box {
-    margin-top: 20px; /* Espace au-dessus de la boîte de texte */
+    margin-top: 20px; 
     padding: 20px;
-    background-color: #222; /* Couleur de fond de la boîte */
-    border: 2px solid #09f; /* Bordure de la boîte */
-    border-radius: 8px; /* Coins arrondis */
-    color: #eee; /* Couleur du texte */
-    max-width: 800px; /* Largeur maximum de la boîte */
-    text-align: center; /* Centrer le texte */
-    margin-left: auto; /* Centrer la boîte horizontalement */
-    margin-right: auto; /* Centrer la boîte horizontalement */
+    background-color: #222; 
+    border: 2px solid #09f; 
+    border-radius: 8px; 
+    color: #eee; 
+    max-width: 800px; 
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 h2{
@@ -261,15 +261,15 @@ h2{
 
 /* Style pour la box de la page À Propos */
 .about-box {
-    max-width: 800px; /* Largeur maximale de la boîte */
-    margin: 20px auto; /* Centrage de la boîte */
+    max-width: 800px; 
+    margin: 20px auto; 
     padding: 20px;
-    border: 2px solid #09f; /* Bordure de couleur bleue */
+    border: 2px solid #09f; 
     border-radius: 10px;
-    background-color: #222; /* Fond sombre */
-    color: #eee; /* Couleur de texte claire */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre pour donner du relief */
-    text-align: left; /* Alignement du texte à gauche */
+    background-color: #222; 
+    color: #eee; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    text-align: left; 
 }
 
 .about-box h2 {
